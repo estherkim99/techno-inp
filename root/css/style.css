@@ -1,0 +1,700 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+a:link {
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+p {
+	color: #5a5a5a;
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	line-height: 24px;
+}
+.primary-button a {
+	display: inline-block;
+	background-color: #86a3c3;
+	padding: 12px 18px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+.primary-button a:hover {
+	background-color: #7268A6;
+}
+
+.arrow-button a {
+	display: inline-block;
+	background-image: url(http://techno-inp.com/img/down.png);
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	padding: 15px 18px;
+	border-radius: 20px;
+	transition: all 0.5s;
+	margin-top: 60px;
+}
+
+.container .arrow-button{
+	text-align: center;
+}
+
+.white-button a {
+	display: inline-block;
+	background-color: #fff;
+	padding: 12px 18px;
+	color: #121212;
+	font-size: 11px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+.white-button a:hover {
+	background-color: #121212;
+	color: #fff;
+}
+.section-heading h4 {
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #121212;
+}
+.section-heading .line-dec {
+	width: 60px;
+	height: 3px;
+	background-color: #121212;
+	margin: 0 auto;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: 80px;
+    background-color:transparent;  
+    
+    text-align: center;
+    line-height: 40px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.navbar-brand {
+	line-height: 80px;
+	padding: 0px;
+}
+
+.navbar-nav>li>a {
+	color: #fff!important;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	line-height: 80px;
+	padding: 0px;
+	letter-spacing: 0.5px;
+}
+
+.navbar-nav>li {
+	margin-left: 45px;
+}
+
+.header.active .navbar-nav>li>a {
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	color: #121212!important;
+}
+
+.header.active {
+    background-color: rgba(250, 250, 250, 0.98);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar-brand .logo{
+	margin-top: 22px;
+	background-image: url(http://techno-inp.com/img/white_logo_edit.png);
+	display: inline-block;
+	width: 150px;
+	height: 32px;
+	background-size: contain;
+}
+.header.active .navbar-brand .logo{
+	margin-top: 22px;
+	background-image: url(http://techno-inp.com/img/black_logo_edit.png);
+	display: inline-block;
+	width: 150px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+#main-nav {
+	background-color: transparent;
+	background-image: none!important;
+}
+.header .navbar-brand {
+    font-weight: 900;
+}
+.navbar-inverse {
+	background-image: none;
+	background-color: transparent;
+}
+.header .navbar {
+    margin: 0;
+    border: none;
+}
+.page-section {
+    padding: 80px 0;
+}
+.navbar-inverse .navbar-toggle {
+	margin-top: 22px;
+    border-color: #86a3c3;
+    background-color: #86a3c3;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #86a3c3;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 15px!important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+@media (min-width: 768px) {
+    .header .navbar-brand {
+        padding-left: 0;
+    }
+    .navbar-nav {
+        float: right;
+    }
+}
+@media (max-width: 480px) {
+    .page-section h1 {
+        font-size: 3em;
+    }
+    .page-section h2 {
+        font-size: 2em;
+    }
+    .page-section p {
+        font-size: 1em;
+        margin: 0 0 20px;
+    }
+}
+
+
+
+/* HERO SLIDER */
+
+.slide-caption {
+	color: #fff;
+}
+
+.slide-caption span {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.slide-caption h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-top: 25px;
+}
+
+.slide-caption p {
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	line-height: 24px;
+	margin-bottom: 50px;
+}
+
+ul.cd-hero-slider {
+	margin-bottom: 0px;
+}
+
+/* Our services */
+
+#service {
+	background-color: #f4f4f4;
+	padding: 80px 0px;
+
+}
+
+#service .section-heading {
+	margin-bottom: 60px;
+}
+
+.service-item {
+	cursor: pointer;
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 20px;
+	transition: all 0.7s;
+	box-shadow: 0px 0px 15px #cdcdcd;
+}
+
+.service-item:hover {
+	background-color: #86a3c3;
+}
+
+.service-item h4 {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.service-item:hover h4 {
+	color: #fff;
+}
+
+.service-item:hover p {
+	color: #fff;
+}
+
+.material-icons.md-light {
+	color: rgba(255, 255, 255, 1); 
+}
+
+
+
+/* About */
+
+#about {
+	background-image: url(http://techno-inp.com/img/about-bg.jpg);
+	width: 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	padding: 80px 0px;
+	color: #fff;
+	background-position: 
+}
+
+#about .section-heading {
+	margin-bottom: 60px;
+}
+
+#about .section-heading h4 {
+	color: #fff;
+}
+
+#about .left-text {
+	padding: 10px 25px;
+}
+
+#about .section-heading .line-dec {
+	background-color: #fff;
+}
+
+#about .left-text h4 {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+#about #mission {
+	margin-left: 1.5em;
+	font-size: 13px;
+	display: list-item;
+	list-style: disc;
+	margin-bottom: 10px;
+}
+
+#about p {
+	margin-bottom: 30px;
+	color: #fff;
+	
+}
+
+#about .primary-button {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+/* PROJECTS */
+
+#projects {
+	background-image: url(http://techno-inp.com/img/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+}
+
+#projects .section-heading h4 {
+	color: #fff;
+}
+
+#projects .filter {
+	color: #fff;
+}
+
+
+.projects-holder .mix {
+  display: none;
+}
+
+.filter-categories {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.filter-categories ul li {
+  margin: 0px 10px 15px 10px;
+  display: inline-block;
+}
+
+.filter-categories ul li span {
+  cursor: pointer;
+  color: #86a3c3;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.filter-categories ul li.active span {
+  color: #fff;
+}
+
+.project-item {
+	margin-top: 30px;
+}
+
+.project-item .thumb {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+
+.project-item .thumb img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.project-item .hover-effect {
+	position: absolute;
+	background-color: #86a3c3;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s;
+}
+
+.project-item .hover-effect i {
+	text-align: center;
+	margin-top: 35%;
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background-color: #fff;
+	line-height: 46px;
+	color: #a2cf8d;
+	border-radius: 50%;
+	font-size: 18px;
+}
+
+.project-item .hover-effect i:hover {
+	background-color: #86a3c3;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.project-item:hover .hover-effect {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/* PRODUCTS */
+
+#products {
+	width: 100%;
+}
+
+#products .section-heading  {
+	margin-bottom: 60px;
+}
+
+.products-item {
+	background-color: #fff;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	transition: all 0.7s;
+	box-shadow: 0px 0px 15px #cdcdcd;
+	margin-bottom: 20px;
+}
+
+.products-item ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.products-item ul li {
+	display: list-item;
+	padding-left: 10px;
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.products-item:hover {
+	background-color: #86a3c3;
+}
+
+.products-item h4 {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.products-item:hover h4 {
+	color: #fff;
+}
+
+.products-item:hover li {
+	color: #fff;
+}
+
+
+
+/* COMPANY STATS */
+
+#stats {
+	padding: 100px 0px;
+	background-color: #fff;
+}
+
+#stats .row {
+	padding: 0px;
+}
+
+#stats .stat-item {
+	text-align: center;
+	height: 100px;
+}
+
+#stats .banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 75px;
+}
+
+.stat-item .counter {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #86a3c3;
+}
+
+.stat-item span {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: #7a7a7a;
+}
+
+
+
+/* CONTACT US */
+
+#contact .section-heading h4 {
+	color: #fff;
+}
+
+#contact .section-heading .line-dec {
+	background-color: #fff;
+}
+
+#contact .section-heading {
+	margin-bottom: 60px;
+}
+
+#contact .contact-description {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+#contact .contact-category {
+	color: #fff;
+	text-align: center;
+}
+
+#contact p {
+	color: #fff;
+}
+
+#contact {
+	background-image: url(http://techno-inp.com/img/contact.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+
+}
+
+#contact input {
+	border-radius: 0px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #fff;
+	background-color: rgba(250, 250, 250, 0.1);
+	outline: none;
+	border: none;
+	box-shadow: none;
+	line-height: 50px;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#contact textarea {
+	border-radius: 0px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #fff;
+	background-color: rgba(250, 250, 250, 0.1);
+	outline: none;
+	border: none;
+	box-shadow: none;
+	height: 150px;
+	max-height: 300px;
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#contact button {
+	display: inline-block;
+	background-color: #86a3c3;
+	padding: 12px 18px;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+#contact button:hover {
+	color: #fff;
+	background-color: #7268A6;
+	transition: all 0.3s;
+}
+
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	background-color: #202628;
+	padding: 20px;
+}
+
+footer p {
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+
+/* RESPONSIVE UI */
+
+@media (max-width: 767px){
+	#main-nav {
+		border-color: rgba(250, 250, 250, 0.95);
+		margin-top: 16px;
+		background-color: rgba(250, 250, 250, 0.95);
+		box-shadow: 0px 5px 10px #cdcdcd;
+	}
+	.navbar-nav {
+		padding: 0px;
+		margin-top: 0px;
+		margin-top: 0px;
+	}
+	.navbar-nav>li {
+		margin-left: 0px;
+		border-bottom: 1px solid #eee;
+	}
+	.navbar-nav>li:last-child {
+		border-bottom: none;
+	}
+	.navbar-nav>li>a {
+		line-height: 50px;
+		color: #121212!important;
+	}
+}
+
+@media (max-width: 768px){
+	.cd-hero .slide-caption span {
+		font-size: 13px;
+	}
+
+	.cd-hero .slide-caption h2 {
+		font-size: 25px;
+	}
+
+	#stats .banner {
+		width: 40%;
+	}
+}
+
+
+@media (max-width: 1015px){
+	.slide-caption .content-caption p {
+		padding: 0 10%;
+	}
+	.service-item {
+		margin-bottom: 30px;
+	}
+
+	#stats .banner {
+		width: 40%;
+	}
+}
