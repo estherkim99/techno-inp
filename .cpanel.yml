@@ -2,9 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/technqn6/public_html/
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R forms $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R root/css $DEPLOYPATH
+    - /bin/cp -R root/fonts $DEPLOYPATH
+    - /bin/cp -R root/forms $DEPLOYPATH
+    - /bin/cp -R root/img $DEPLOYPATH
+    - /bin/cp -R root/js $DEPLOYPATH
+    - /bin/cp root/index.html $DEPLOYPATH
