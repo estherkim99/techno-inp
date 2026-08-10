@@ -7,4 +7,5 @@ deployment:
     - /bin/cp -R root/forms $DEPLOYPATH
     - /bin/cp -R root/img $DEPLOYPATH
     - /bin/cp -R root/js $DEPLOYPATH
+    - /bin/cp -R root/files $DEPLOYPATH
     - /bin/cp root/index.html $DEPLOYPATH
